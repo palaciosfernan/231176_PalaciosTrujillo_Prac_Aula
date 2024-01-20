@@ -17,30 +17,20 @@ body {
     background: #fff;
 }
 
-header {
-    background-color: #fff;
-    color: #000;
-    padding: 10px 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    z-index: 1000px;
-    border-bottom: 1px solid #a0a0a0;
-    box-shadow: #000;
-  }
+#_logo a {
+  color: #ffffff;
+}
 
 #_logo {
-    margin-right: 500px;
-    background-color: #000000;
-    width: 195px;
-    height: 40px;
-    opacity: 1;
-    text-align: left;
-    top: 20px;
-    color: #fff;
-    font: normal normal 900 32px/39px Lato;
-    font-size: 30px;
+  margin-right: 500px;
+  background-color: #000000;
+  width: 195px;
+  height: 40px;
+  opacity: 1;
+  color: #FFFFFF;
+  top: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
 }
 
   
@@ -193,11 +183,14 @@ header {
     
 }
 
-.main-card-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 60px;  
+header {
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+
 }
 
 .cards{
@@ -206,12 +199,9 @@ header {
     height: 250px;
     border-radius: 10px ;
     padding: 7px;
-    background-color: #9e9e9e;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
 }
 
-.main-card-header p{
-    color: #000;
-}
 
 .title-cards{
     position: absolute;
@@ -244,11 +234,28 @@ header {
 .card-star img{
     width: 100%;
 }
-
+.ver_mas{
+  background-color: #000;
+  position: flex;
+}
 .card-button{
-    position: absolute;
-    bottom: 0;
-    padding: 15px;
+  top: 566px;
+  left: 145px;
+  width: 300px;
+  height: 180px;
+  align-items: flex-end;
+  display: flex;
+  background: #F2F2F2 0% 0% no-repeat padding-box;
+  border-radius: 20px;
+  opacity: 1;
+}
+.main-card-header{
+  font: normal normal 900 14px/14px Lato;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    color: #000;
 }
 
 .card-button button{
@@ -257,6 +264,7 @@ header {
     font-weight: 400;
     font-size: 15px;
     padding: 3px 7px;
+
     border: 1px solid #000;
     border-radius: 999px;
 }
@@ -288,13 +296,8 @@ footer{
     padding: 50px 60px;
     background-color: #f2f2f2;
   }
-  .logo-element_footer{
-    display: flex;
-    margin: 2rem 0;
-  }
-  .logo-element_footer img{
-    max-height: 75px;
-  }
+  
+ 
   .element-footer h5{
     margin: 1rem 0;
   }
@@ -334,9 +337,6 @@ footer{
     color: #576171;
     font-size: .9rem;
   }
-  p{
-    color: #fff;
-  }
   #footer_main {
     display: flex;
     justify-content: center;
@@ -352,16 +352,11 @@ footer{
     justify-content: center;
     display: flex;
 }
-#_logo {
-    margin-right: 500px;
-    background-color: #000000;
-    width: 195px;
-    height: 40px;
-    opacity: 1;
-    text-align: left;
-    top: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 30px;
+#pages{
+  justify-content: space-evenly;
+  font: normal normal 300 18px/22px Lato;
+  color: #000000;
+  text-decoration: none;
 }
 .footer_in {
     color: #FFFFFF;
