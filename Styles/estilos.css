@@ -36,11 +36,30 @@ body {
     width: 195px;
     height: 40px;
     opacity: 1;
-    text-align: left;
+    color: #FFFFFF;
     top: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
 }
+.pages{
+        top: 33px;
+    left: 922px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font: normal normal 300 18px/22px Lato;
+    color: #000000;
+    opacity: 1;
+}
+header {
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+ 
+  }
 
 .pres{
     margin-left: 138px;
@@ -51,6 +70,8 @@ body {
     width: 100%;
     height: 481px;
     top: 170px;
+    font: normal normal 900 40px/48px Lato;
+    letter-spacing: 0px
 
 }
 
@@ -73,9 +94,17 @@ body {
 }
 
 .titulog {
-    font: normal normal 300 18px/22px Lato;
-    color: #000000;
-    opacity: 1;
+   /* Layout Properties */
+top: 759px;
+left: 157px;
+width: 247px;
+height: 22px;
+/* UI Properties */
+text-align: left;
+font: normal normal 300 18px/22px Lato;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
 }
 
 #contenedor2 {
@@ -95,8 +124,11 @@ body {
     border-radius: 10px;
     width: 80px;
     font: normal normal 300 14px/17px Lato;
+    top: 30px;
 }
-
+.two{
+    background-color: #cecece;
+}
 #part_two {
     padding: 20px 60px;
     display: grid;
@@ -105,20 +137,19 @@ body {
 }
 
 .card {
-    top: 559px;
-    left: 138px;
-    width: 308px;
-    height: 240px;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    border-radius: 20px;
-    opacity: 1;
+    position: relative;
+    width: 80%;
+    height: 230px;
+    border-radius: 10px ;
+    padding: 7px;
+    background-color: #FFFFFF ;
 }
 
 ._card-part-two {
     top: 566px;
     left: 145px;
-    width: 294px;
-    height: 186px;
+    width: 300px;
+    height: 190px;
     align-items: flex-end;
     display: flex;
     background: #F2F2F2 0% 0% no-repeat padding-box;
@@ -149,17 +180,27 @@ body {
     margin-right: 20px;
     margin-bottom: 20px;
     background: #FFFFFF;
-    border: 1px solid #E3E3E3;
-    border-radius: 20px;
+    border: 1px solid #E3E3E3;    
+    border-radius: 20px ;
+    padding: 7px;
+     background-color: #FFFFFF ;
 }
 
 ._part-tree {
-    width: 294px;
-    height: 186px;
-    background: #F2F2F2;
+    width: 310px;
+    height: 190px;
+    background: #F2F2F2 0% 0% no-repeat padding-box;
     border-radius: 20px;
 }
-
+#_img{
+    top: 94px;
+left: 607px;
+width: 535px;
+height: 299px;
+background: #F2F2F2 0% 0% no-repeat padding-box;
+border-radius: 20px;
+opacity: 1;
+}
 .footer_in2 {
     top: 1708px;
     left: 592px;
@@ -201,7 +242,7 @@ a {
 }
 
 #_logo a {
-    color: #F2F2F2;
+    color: #ffffff;
 }
 
 h1 {
